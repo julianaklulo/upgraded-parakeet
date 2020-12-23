@@ -1,0 +1,20 @@
+h1{
+    font-family: "Verdana", Monaco, monospace;
+    font-size: 40px;
+    color: #201FFF;
+    font-weight: 700;
+}
+h3,a{
+    font-family: "Verdana", Monaco, monospace;
+    font-size: 25px;
+    color: #000;
+}
+ol{
+    font-family: "Verdana", Monaco, monospace;
+    font-size: 15px;
+    color: #201FFF;
+    font-weight: 700;
+}
+body{
+    background: #C0C0C0
+}
