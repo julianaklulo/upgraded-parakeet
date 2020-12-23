@@ -19,9 +19,9 @@ def categories():
     categories = list_categories()
     return render_template('categories.html', categories=categories)
 
-@app.route('/subcategories')
-def subcategories():
-    subcategories = list_subcategories()
-    return render_template('subcategories.html', subcategories=subcategories)
+@app.route('/<category>/subcategories')
+def subcategories(category):
+    subcategories = list_subcategories(category)
+    return render_template('subcategories.html', category=category, subcategories=subcategories)
 
 app.run(debug=True)
