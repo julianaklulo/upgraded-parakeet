@@ -1,12 +1,12 @@
 {% extends 'template.html' %}
 {% block body %}
-    <h3>Categories</h3>
+    <h3>Categories of {{ marketplace }}</h3>
     <ol>
         {% for category in categories %}
-            <li><a href='/{{ category }}/subcategories'>{{ category }}</a></li>
+            <li><a href='/{{ marketplace }}/{{ category }}/subcategories'>{{ category }}</a></li>
         {% endfor %}
     </ol>
 {% endblock %}
 {% block footer %}
-    <a href='/'>Go Back</a>
+    <a href='/marketplaces'>Go Back</a>
 {% endblock %}
