@@ -1,0 +1,4 @@
+Móveis;Sala;Cozinha
+Eletrônicos;Celulares;Computadores
+Eletrodomésticos;Linha Branca
+Livros;Infanto Juvenil;Ficção;Poesia
