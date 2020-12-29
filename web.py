@@ -19,9 +19,9 @@ def categories(marketplace):
     categories = list_categories(marketplace)
     return render_template('categories.html', marketplace=marketplace, categories=categories)
 
-@app.route('/<category>/subcategories')
-def subcategories(category):
+@app.route('/<marketplace>/<category>/subcategories')
+def subcategories(marketplace, category):
     subcategories = list_subcategories(category)
-    return render_template('subcategories.html', category=category, subcategories=subcategories)
+    return render_template('subcategories.html', marketplace=marketplace, category=category, subcategories=subcategories)
 
 app.run(debug=True)
