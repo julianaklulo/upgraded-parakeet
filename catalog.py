@@ -1,35 +1,17 @@
-categories_list = [
-    {'Móveis': ['Sala', 'Cozinha']},
-    {'Eletrônicos': ['Celulares', 'Computadores']},
-    {'Eletrodomésticos': ['Linha Branca']},
-    {'Livros': ['Infanto Juvenil', 'Ficção', 'Poesia']}
-]
+from data import read_categories, read_marketplaces
 
-marketplaces_list = {
-    'Mercado Livre': [
-        categories_list[0],
-        categories_list[1],
-        categories_list[2]
-    ],
-    'B2W': [ 
-        categories_list[1],
-        categories_list[2],
-        categories_list[3]
-    ],
-    'Magazine Luiza': [
-        categories_list[0],
-        categories_list[1]
-    ]
-}
+categories_dict = read_categories()
+
+marketplaces_dict = read_marketplaces()
 
 def list_marketplaces():
-    marketplaces = [marketplace for marketplace in marketplaces_list.keys()]
+    marketplaces = [key for key in marketplaces_dict.keys()]
     return marketplaces
 
-def list_categories():
-    categories = [key for category in categories_list for key in category]
+def list_categories(marketplace_name):
+    categories = marketplaces_dict[marketplace_name]
     return categories
 
 def list_subcategories(category_name):
-    subcategories = [category[category_name] for category in categories_list if category_name in category.keys()]
-    return subcategories[0]
+    subcategories = categories_dict[category_name]
+    return subcategories
