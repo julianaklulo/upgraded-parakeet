@@ -1,3 +1,10 @@
+from datetime import datetime
+
+def write_log(log_line):
+    timestamp = datetime.now().strftime("%H:%M:%S - %d/%m/%Y")
+    with open('log.txt', 'a') as log_file:
+        log_file.write(f"[{timestamp}] {log_line}\n")
+
 def read_categories():
     categories_dict = {}
     with open('categories.txt', 'r') as categories_file:
@@ -29,3 +36,4 @@ def write_marketplaces(marketplace_dict):
     categories = ';'.join(marketplace_dict[marketplace])
     with open('marketplaces.txt', 'a') as marketplaces_file:
         marketplaces_file.write(marketplace + ';' + categories + '\n')
+
