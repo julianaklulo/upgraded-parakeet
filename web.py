@@ -14,10 +14,10 @@ def marketplaces():
     marketplaces = list_marketplaces()
     return render_template('marketplaces.html', marketplaces=marketplaces)
 
-@app.route('/categories')
-def categories():
-    categories = list_categories()
-    return render_template('categories.html', categories=categories)
+@app.route('/<marketplace>/categories')
+def categories(marketplace):
+    categories = list_categories(marketplace)
+    return render_template('categories.html', marketplace=marketplace, categories=categories)
 
 @app.route('/<category>/subcategories')
 def subcategories(category):
