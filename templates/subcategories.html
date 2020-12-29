@@ -1,6 +1,6 @@
 {% extends 'template.html' %}
 {% block body %}
-    <h3>Subcategories of {{ category }}</h3>
+    <h3>Subcategories of {{ category }} in {{ marketplace }}</h3>
     <ol>
         {% for subcategory in subcategories %}
             <li>{{ subcategory }}</li>
@@ -8,5 +8,5 @@
     </ol>
 {% endblock %}
 {% block footer %}
-    <a href='/categories'>Go Back</a>
+    <a href='/{{ marketplace }}/categories'>Go Back</a>
 {% endblock %}
