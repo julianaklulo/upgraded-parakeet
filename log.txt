@@ -1,0 +1,21 @@
+[00:07:03 - 29/12/2020] List marketplaces
+[00:07:13 - 29/12/2020] List categories of marketplace Mercado Livre
+[00:07:18 - 29/12/2020] List subcategories of category Móveis
+[00:07:27 - 29/12/2020] List categories of marketplace Mercado Livre
+[00:07:32 - 29/12/2020] List subcategories of category Eletrônicos
+[00:07:34 - 29/12/2020] List categories of marketplace Mercado Livre
+[00:07:35 - 29/12/2020] List marketplaces
+[00:07:49 - 29/12/2020] List marketplaces
+[00:07:51 - 29/12/2020] List categories of marketplace B2W
+[00:07:53 - 29/12/2020] List subcategories of category Livros
+[00:07:54 - 29/12/2020] List categories of marketplace B2W
+[00:07:55 - 29/12/2020] List subcategories of category Eletrodomésticos
+[00:07:58 - 29/12/2020] List categories of marketplace B2W
+[00:08:01 - 29/12/2020] List subcategories of category Eletrônicos
+[00:08:03 - 29/12/2020] List categories of marketplace B2W
+[00:08:04 - 29/12/2020] List marketplaces
+[00:08:07 - 29/12/2020] List marketplaces
+[00:08:11 - 29/12/2020] List categories of marketplace B2W
+[00:11:41 - 29/12/2020] List marketplaces
+[00:11:46 - 29/12/2020] List categories of marketplace B2W
+[00:11:52 - 29/12/2020] List subcategories of category Livros
