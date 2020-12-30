@@ -1,4 +1,4 @@
-from data import read_categories, read_marketplaces
+from data import read_categories, read_marketplaces, write_marketplaces, write_log
 
 categories_dict = read_categories()
 
@@ -8,6 +8,11 @@ def list_marketplaces():
     marketplaces = [key for key in marketplaces_dict.keys()]
     write_log("List marketplaces")
     return marketplaces
+
+def add_marketplace(marketplace_name, categories):
+    marketplace = {marketplace_name: categories}
+    write_marketplaces(marketplace)
+    write_log(f"Create marketplace {marketplace_name}")
 
 def list_categories():
     categories = [category for category in categories_dict.keys()]
