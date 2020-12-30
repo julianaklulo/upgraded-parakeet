@@ -1,0 +1,19 @@
+{% extends 'template.html' %}
+{% block body %}
+    <h3>Create Marketplace</h3>
+    <form action='/marketplace'>
+        <label>Name: </label><input type='text' name='marketplace_name'><br />
+        <label>Categories:</label>
+        <ol>
+            {% for category in categories %}
+            <input type='checkbox' name={{category}}>
+            <label>{{category}}</label>
+            <br />
+            {% endfor %}
+        </ol>
+        <input type='submit' value='Add' />
+    </form>
+{% endblock %}
+{% block footer %}
+    <a href='/'>Go Back</a>
+{% endblock %}
