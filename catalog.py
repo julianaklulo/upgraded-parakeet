@@ -9,7 +9,12 @@ def list_marketplaces():
     write_log("List marketplaces")
     return marketplaces
 
-def list_categories(marketplace_name):
+def list_categories():
+    categories = [category for category in categories_dict.keys()]
+    write_log("List categories")
+    return categories
+
+def list_categories_of_marketplace(marketplace_name):
     categories = marketplaces_dict[marketplace_name]
     write_log(f"List categories of marketplace {marketplace_name}")
     return categories
