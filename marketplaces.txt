@@ -2,3 +2,5 @@ Mercado Livre;Móveis;Eletrônicos;Eletrodomésticos
 B2W;Eletrônicos;Eletrodomésticos;Livros
 Magazine Luiza;Móveis;Eletrônicos
 Madeira Madeira;Móveis
+Via Varejo;Móveis;Eletrônicos;Eletrodomésticos
+Ponto Frio;Móveis;Eletrodomésticos

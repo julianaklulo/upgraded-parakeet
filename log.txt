@@ -19,3 +19,34 @@
 [00:11:41 - 29/12/2020] List marketplaces
 [00:11:46 - 29/12/2020] List categories of marketplace B2W
 [00:11:52 - 29/12/2020] List subcategories of category Livros
+[15:59:09 - 30/12/2020] List categories
+[15:59:29 - 30/12/2020] List categories
+[15:59:55 - 30/12/2020] List categories
+[16:04:57 - 30/12/2020] List categories
+[16:05:05 - 30/12/2020] List categories
+[16:05:15 - 30/12/2020] List categories
+[16:05:27 - 30/12/2020] List categories
+[16:11:05 - 30/12/2020] List categories
+[16:20:26 - 30/12/2020] List categories
+[16:20:52 - 30/12/2020] Create marketplace Via Varejo
+[16:23:09 - 30/12/2020] List marketplaces
+[16:23:11 - 30/12/2020] List categories of marketplace Via Varejo
+[16:23:13 - 30/12/2020] List marketplaces
+[16:23:15 - 30/12/2020] List categories
+[16:23:23 - 30/12/2020] Create marketplace Ponto Frio
+[16:23:26 - 30/12/2020] List marketplaces
+[16:23:33 - 30/12/2020] List marketplaces
+[16:23:50 - 30/12/2020] List marketplaces
+[16:23:55 - 30/12/2020] List marketplaces
+[16:24:08 - 30/12/2020] List marketplaces
+[16:24:15 - 30/12/2020] List categories
+[16:24:20 - 30/12/2020] Create marketplace Teste
+[16:24:24 - 30/12/2020] List marketplaces
+[16:26:03 - 30/12/2020] List marketplaces
+[16:26:05 - 30/12/2020] List categories
+[16:26:10 - 30/12/2020] List categories
+[16:26:14 - 30/12/2020] Create marketplace bla
+[16:26:16 - 30/12/2020] List marketplaces
+[16:26:18 - 30/12/2020] List marketplaces
+[16:26:21 - 30/12/2020] List marketplaces
+[16:26:35 - 30/12/2020] List marketplaces
