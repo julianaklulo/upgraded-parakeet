@@ -1,8 +1,13 @@
+import sys
+sys.path.append('back')
+
+
 from catalog import list_marketplaces, list_categories, list_subcategories
+
 
 def marketplaces():
     marketplaces = list_marketplaces()
-    
+
     option = -1
     while option < 0 or option > len(marketplaces):
         print("\nMarketplaces:\n")
@@ -20,7 +25,7 @@ def marketplaces():
         else:
             marketplace = marketplaces[option-1]
             categories(marketplace)
-            
+
 
 def categories(marketplace_name):
     categories = list_categories(marketplace_name)
@@ -34,7 +39,7 @@ def categories(marketplace_name):
         print("0 - Go back to Marketplaces")
 
         option = int(input("\nChoose a category: "))
-        
+
         if option == 0:
             marketplaces()
         elif option < 0 or option > len(categories):
@@ -51,6 +56,7 @@ def subcategories(marketplace_name, category_name):
         print(subcategory)
     menu()
 
+
 def menu():
     option = -1
     while option < 0 or option > 1:
@@ -64,6 +70,7 @@ def menu():
             exit(1)
         elif option == 1:
             marketplaces()
+
 
 if __name__ == '__main__':
     menu()
