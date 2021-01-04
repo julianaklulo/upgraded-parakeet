@@ -4,3 +4,6 @@ Magazine Luiza;Móveis;Eletrônicos
 Madeira Madeira;Móveis
 Via Varejo;Móveis;Eletrônicos;Eletrodomésticos
 Ponto Frio;Móveis;Eletrodomésticos
+Teste;Eletrodomésticos
+Bla;Móveis
+Marketplace Top;Eletrônicos
